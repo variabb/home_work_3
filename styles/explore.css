@@ -1,0 +1,76 @@
+@media screen and (max-width: 320px) {
+  /* ================== Explore Our Secrets ================ */
+  .explore {
+    padding-top: 40px;
+  }
+  .explore-title {
+    margin-bottom: 17px;
+    font-size: 40px;
+    color: #010a20;
+    text-align: center;
+  }
+  .explore-list-item-img {
+    width: 260px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  .explore-container {
+    background-color: rgba(2, 12, 33, 0.901);
+
+    margin-top: 725px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 36px;
+  }
+  .explore-container-title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 55px;
+  }
+  .explore-container-text,
+  .explore-container-list-item-text {
+    text-align: center;
+    color: #e0e0e0;
+    font-weight: 300;
+  }
+  .explore-container-list {
+    margin-top: 65px;
+  }
+  .explore-container-list-item {
+    margin-bottom: 80px;
+  }
+  .explore-container-list-item:last-child {
+    margin-bottom: 0;
+  }
+  .explore-container-list-item-number {
+    color: #dd2242;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+}
+
+/*? ============================320-480========================================= */
+@media screen and (max-width: 479px) {
+  /* =================== HEADER ===================== */
+}
+
+/*? ============================480-768========================================= */
+
+@media screen and (min-width: 480px) {
+}
+
+/*? ============================768-1000========================================= */
+@media screen and (min-width: 768px) {
+}
+
+/*? ============================1000-1280========================================= */
+@media screen and (min-width: 1000px) {
+}
+/*? ============================1280========================================= */
+@media screen and (min-width: 1280px) {
+}

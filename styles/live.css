@@ -1,0 +1,50 @@
+@media screen and (max-width: 320px) {
+  .live {
+   background-image: url(/images/live-bg.jpg);
+  padding-top: 80px;
+  padding-bottom: 40px;
+  }
+.live-title{
+     margin-right: 20px;
+   margin-left: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+.live-list-item-title{
+    font-size: 20px;
+    text-align: center;
+     margin-bottom: 30px;
+}
+.live-list-item{
+    margin-bottom: 40px;
+}
+.live-list-item:last-child{
+    margin-bottom: 0;
+}
+.live-list-item-text{
+    font-weight: 300;
+    text-align: center;
+}
+  
+}
+
+/*? ============================320-480========================================= */
+@media screen and (max-width: 479px) {
+  /* =================== HEADER ===================== */
+}
+
+/*? ============================480-768========================================= */
+
+@media screen and (min-width: 480px) {
+}
+
+/*? ============================768-1000========================================= */
+@media screen and (min-width: 768px) {
+}
+
+/*? ============================1000-1280========================================= */
+@media screen and (min-width: 1000px) {
+}
+/*? ============================1280========================================= */
+@media screen and (min-width: 1280px) {
+}

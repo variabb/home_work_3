@@ -1,0 +1,60 @@
+@media screen and (max-width: 320px) {
+  .hills {
+    background-repeat: no-repeat;
+    background: url(/images/hills-bg-top.png) top left no-repeat,
+    url(/images/hills-bg-bottom.png) bottom right no-repeat;
+  }
+
+  .hills {
+    padding-top: 175px;
+    padding-bottom: 105px;
+  }
+  .hills-title {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .hills-text {
+    color: #6f7787;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 36px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .hills-text-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
+
+/*? ============================320-480========================================= */
+@media screen and (max-width: 479px) {
+  /* =================== HEADER ===================== */
+}
+
+/*? ============================480-768========================================= */
+
+@media screen and (min-width: 480px) {
+}
+
+/*? ============================768-1000========================================= */
+@media screen and (min-width: 768px) {
+}
+
+/*? ============================1000-1280========================================= */
+@media screen and (min-width: 1000px) {
+}
+/*? ============================1280========================================= */
+@media screen and (min-width: 1280px) {
+}

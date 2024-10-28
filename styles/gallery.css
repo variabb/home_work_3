@@ -1,0 +1,61 @@
+@media screen and (max-width: 320px) {
+  .gallery-title {
+    color: black;
+    text-align: center;
+  }
+
+  .gallery-text {
+    color: #6c6c6c;
+    text-align: center;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Дві колонки */
+    grid-auto-rows: 1fr; /* Автоматична висота рядків */
+    gap: 20px; /* Відстань між зображеннями */
+  }
+  .gallery-grid img {
+    object-fit: cover; /* Зображення заповнює блок без деформації */
+    border-radius: 15px; /* Закруглені кути для зображень */
+  }
+/* .gallery-grid-img-1{
+
+}
+.gallery-grid-img-2{
+  
+}
+.gallery-grid-img-3{
+  
+}
+.gallery-grid-img-4{
+  
+}
+.gallery-grid-img-5{
+  
+}
+.gallery-grid-img-6{
+  
+} */
+}
+
+/*? ============================320-480========================================= */
+@media screen and (max-width: 479px) {
+  /* =================== HEADER ===================== */
+}
+
+/*? ============================480-768========================================= */
+
+@media screen and (min-width: 480px) {
+}
+
+/*? ============================768-1000========================================= */
+@media screen and (min-width: 768px) {
+}
+
+/*? ============================1000-1280========================================= */
+@media screen and (min-width: 1000px) {
+}
+/*? ============================1280========================================= */
+@media screen and (min-width: 1280px) {
+}
