@@ -55,13 +55,67 @@
 }
 
 /*? ============================320-480========================================= */
-@media screen and (max-width: 479px) {
-  /* =================== HEADER ===================== */
+@media screen and (max-width: 480px) {
+  .explore {
+    padding-top: 40px;
+    background-size: cover;
+    
+  }
+  .explore-title {
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #010a20;
+    text-align: center;
+  }
+  .explore-list-item-img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  .explore-container {
+    background-color: rgba(2, 12, 33, 0.901);
+
+    margin-top: 700px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 36px;
+    font-size: 20px;
+  }
+  .explore-container-title {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 55px;
+  }
+  .explore-container-text,
+  .explore-container-list-item-text {
+    text-align: center;
+    color: #e0e0e0;
+    font-weight: 300;
+  }
+  .explore-container-list {
+    margin-top: 65px;
+  }
+  .explore-container-list-item {
+    margin-bottom: 60px;
+  }
+  .explore-container-list-item:last-child {
+    margin-bottom: 0;
+  }
+  .explore-container-list-item-number {
+    color: #dd2242;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 36px;
+  }
 }
 
 /*? ============================480-768========================================= */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 481px) {
 }
 
 /*? ============================768-1000========================================= */

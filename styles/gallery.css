@@ -44,13 +44,55 @@
 }
 
 /*? ============================320-480========================================= */
-@media screen and (max-width: 479px) {
-  /* =================== HEADER ===================== */
+@media screen and (max-width: 480px) {
+  .gallery {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .gallery-title {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+
+  .gallery-text {
+    color: #6c6c6c;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+/* Макет галереї */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Дві колонки однакової ширини */
+  gap: 10px; /* Невеликий відступ між зображеннями */
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-grid-img-1 {
+  grid-row: span 2; /* Перший елемент займає два ряди */
+}
+.gallery-grid-img-3{
+ grid-row: span 2;
+}
 }
 
 /*? ============================480-768========================================= */
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 481px) {
 }
 
 /*? ============================768-1000========================================= */
