@@ -2,6 +2,7 @@
   /* =================== HEADER ===================== */
   .header {
     padding-top: 15px;
+    margin-left: 20px;
   }
   .visually-hidden {
     position: absolute;
@@ -42,6 +43,7 @@
   /* =================== HERO ===================== */
   .hero {
     padding-top: 50px;
+    padding-bottom: 40px;
   }
   .hero-title {
     font-size: 58px;
@@ -73,10 +75,12 @@
     margin-right: 20px;
     margin-left: 20px;
     background-color: rgba(0, 0, 0, 0.565);
+   
   }
   .hero-list {
     padding-left: 29px;
     padding-top: 34px;
+     padding-bottom: 35px;
   }
   .hero-list-item {
     margin-bottom: 35px;

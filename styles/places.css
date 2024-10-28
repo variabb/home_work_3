@@ -20,11 +20,12 @@
   }
   .places-list-item-title {
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 25px;
   }
   .places-list-item-text {
     margin-bottom: 20px;
+    font-weight: 300;
   }
 
 }

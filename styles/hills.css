@@ -1,8 +1,8 @@
 @media screen and (max-width: 320px) {
   .hills {
     background-repeat: no-repeat;
-    background: url(/images/hills-bg-top.png) top left no-repeat,
-    url(/images/hills-bg-bottom.png) bottom right no-repeat;
+    background: url(../images/hills-bg-top.png) top left no-repeat,
+    url(../images/hills-bg-bottom.png) bottom right no-repeat;
   }
 
   .hills {

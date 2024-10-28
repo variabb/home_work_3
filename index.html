@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./styles/live.css" />
     <link rel="stylesheet" href="./styles/gallery.css" />
     <link rel="stylesheet" href="./styles/getting-here.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <title>Document</title>
   </head>
   <body>
@@ -71,7 +72,7 @@
               </p>
             </li>
           </ul>
-          <video src="https://www.youtube.com/watch?v=OSekJe6ZvAA"></video>
+          <img src="./images/hero.jpg" alt="">
         </div>
       </section>
     </header>
@@ -187,7 +188,8 @@
           expect.
         </h3>
 
-        <video src=""></video>
+         <img  class="live-img" src="./images/live-1.jpg" alt="fhjdfh">
+        <img class="live-img"  src="./images/live-2.jpg" alt="fhjdfh">
         <ul class="live-list">
           <li class="live-list-item">
             <div>
@@ -196,6 +198,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus dapibus mauris in lectus tempus.
               </p>
+                <img class="live-img"  src="./images/live-3.jpg" alt="fhjdfh">
             </div>
           </li>
           <li class="live-list-item">
@@ -205,6 +208,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus dapibus mauris in.
               </p>
+             
             </div>
           </li>
         </ul>
@@ -219,8 +223,8 @@
         <div class="gallery-grid">
           <img class="gallery-grid-img-1" src="./images/gallery-1.jpg" alt="" />
           <img class="gallery-grid-img-2" src="./images/gallery-2.jpg" alt="" />
-          <img class="gallery-grid-img-3" src="./images/gallery-4.jpg" alt="" />
-          <img class="gallery-grid-img-4" src="./images/gallery-3.jpg" alt="" />
+          <img class="gallery-grid-img-3" src="./images/gallery-3.jpg" alt="" />
+          <img class="gallery-grid-img-4" src="./images/gallery-4.jpg" alt="" />
           <img class="gallery-grid-img-5" src="./images/gallery-5.jpg" alt="" />
           <img class="gallery-grid-img-6" src="./images/gallery-6.jpg" alt="" />
         </div>
@@ -241,6 +245,10 @@
               euismod orci dictum faucibus malesuada. Praesent sed eros
               tincidunt, viverra neque auctor, lobortis enim.
             </p>
+            <p class="getting-there-list-item-text-mobile">
+              Lorem ipsum dolor set,,,,
+            </p>
+            <a class="btn-mob">Show More</a>
           </li>
           <li class="getting-there-list-item">
             <div class="getting-there-list-item-number-container">
@@ -254,14 +262,26 @@
                 varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
                 eros tincidunt, viverra neque auctor, lobortis enim.
               </p>
+              <p class="getting-there-list-item-text-mobile">
+                Lorem ipsum dolor set,,,,
+              </p>
+              <a class="btn-mob">Show More</a>
             </div>
             <div>
-              <img src="./images/grtting-img.png" alt="" />
-              <h4 class="getting-there-list-item-title">Travelling there</h4>
+              <img
+                class="getting-there-list-item-img"
+                src="./images/grtting-img.png"
+                alt=""
+              />
+              <h4 class="getting-there-list-item-title visually-hidden">Travelling there</h4>
               <p class="getting-there-list-item-text visually-hidden">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus dapibus mauris in lectus tempus, eget tincidunt.
               </p>
+              <p class="getting-there-list-item-text-mobile">
+                Lorem ipsum dolor set,,,,
+              </p>
+              <a class="btn-mob">Show More</a>
             </div>
           </li>
           <li class="getting-there-list-item">
@@ -275,35 +295,44 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               dapibus mauris in lectus tempus, eget tincidunt lacus varius.
             </p>
+            <p class="getting-there-list-item-text-mobile">
+              Lorem ipsum dolor set,,,,
+            </p>
+            <a class="btn-mob">Show More</a>
           </li>
         </ul>
-        <button class="btn">Learn More</button>
+        <button class="btn visually-hidden">Learn More</button>
       </section>
     </main>
-    <footer>
-      <!-- TODO svg*1-->
-      <a href=""><p>explore indonesia</p></a>
-      <nav>
-        <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Pricing</a></li>
-          <li><a href="">Company</a></li>
-          <li><a href="">Blog</a></li>
+    <footer class="footer">
+      <div class="logo-wrapper">
+        <img class="logo-img" src="./images/logo.png" alt="logo" />
+        <a  href=""
+          ><p class="footer-logo"><span class="footer-logo-text-item">explore</span> indonesia</p></a
+        >
+      </div>
+
+      <nav class="footer-navigation">
+        <ul class="footer-list">
+          <li class="footer-list-item"><a class="footer-list-item-link" href="">About</a></li>
+          <li class="footer-list-item"><a class="footer-list-item-link" href="">Pricing</a></li>
+          <li class="footer-list-item"><a class="footer-list-item-link" href="">Company</a></li>
+          <li class="footer-list-item"><a class="footer-list-item-link" href="">Blog</a></li>
         </ul>
         <!-- TODO svg*2-->
       </nav>
-      <ul>
-        <li>
-          <svg></svg>
+      <ul class="footer-network-list">
+        <li class="footer-network-list-item">
+          <a class="footer-network-list-item-link" href="">f</a>
         </li>
-        <li>
-          <svg></svg>
+        <li class="footer-network-list-item">
+          <a class="footer-network-list-item-link" href="">in</a>
         </li>
-        <li>
-          <svg></svg>
+        <li class="footer-network-list-item">
+          <a class="footer-network-list-item-link" href="">G</a>
         </li>
       </ul>
-      <p>Copyright &copy; 2019</p>
+      <p class="footer-text">Copyright &copy; 2019</p>
     </footer>
   </body>
 </html>

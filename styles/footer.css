@@ -1,0 +1,88 @@
+@media screen and (max-width: 320px) {
+  .footer {
+    background-color: #010a20;
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .logo-img {
+    margin-right: 10px;
+  }
+  .footer-logo-text-item {
+    color: #dd2242;
+  }
+  .footer-navigation {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .footer-list-item {
+    margin-bottom: 40px;
+  }
+  .footer-list-item:last-child {
+    margin-bottom: 0;
+  }
+  .footer-list-item-link {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .footer-network-list {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    align-items: center;
+    align-content: center;
+  }
+
+  .footer-network-list-item-link {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  .footer-network-list-item-link:hover {
+    background-color: #00aaff;
+    color: #fff;
+  }
+  .footer-text{
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+/*? ============================320-480========================================= */
+@media screen and (max-width: 479px) {
+}
+
+/*? ============================480-768========================================= */
+
+@media screen and (min-width: 480px) {
+}
+
+/*? ============================768-1000========================================= */
+@media screen and (min-width: 768px) {
+}
+
+/*? ============================1000-1280========================================= */
+@media screen and (min-width: 1000px) {
+}
+/*? ============================1280========================================= */
+@media screen and (min-width: 1280px) {
+}

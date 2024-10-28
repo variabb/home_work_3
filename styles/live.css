@@ -1,8 +1,10 @@
 @media screen and (max-width: 320px) {
   .live {
-   background-image: url(/images/live-bg.jpg);
+   background-image: url(../images/live-bg.jpg);
   padding-top: 80px;
   padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
   }
 .live-title{
      margin-right: 20px;
@@ -25,7 +27,13 @@
     font-weight: 300;
     text-align: center;
 }
-  
+  .live-img{
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 250px;
+  }
 }
 
 /*? ============================320-480========================================= */
