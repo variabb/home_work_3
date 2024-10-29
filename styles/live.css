@@ -92,7 +92,6 @@
     width: 80%;
     margin: 0 auto;
     margin-bottom: 60px;
-  
   }
   .live-img {
     margin: 0 auto;
@@ -128,6 +127,26 @@
 
 /*? ============================768-1000========================================= */
 @media screen and (min-width: 768px) {
+  .live-img {
+    width: 500px;
+  }
+  .live-list-item-img {
+    width: 400px;
+    height: 100px;
+  }
+
+  .live-list-item-title {
+    font-size: 20px;
+     width: 200px;
+  }
+  .live-list-item-text {
+    font-size: 16px;
+     width: 200px;
+    
+  }
+.live-list{
+  gap: 10px;
+}
 }
 
 /*? ============================1000-1280========================================= */

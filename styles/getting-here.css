@@ -138,7 +138,7 @@
   }
   .getting-there-title {
     color: #010a20;
-
+    text-align: center;
     font-size: 20px;
     margin-bottom: 40px;
   }
@@ -146,55 +146,54 @@
     font-weight: 500;
     font-size: 20px;
   }
-.getting-there-list-item-number-container {
-  background-color: #dd2242;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%; /* Забезпечує круглу форму */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 35px;
-  color: #fff; /* Білий колір тексту */
-  font-weight: bold;
-  font-size: 10px;
-}
+  .getting-there-list-item-number-container {
+    background-color: #dd2242;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; /* Забезпечує круглу форму */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    color: #fff; /* Білий колір тексту */
+    font-weight: bold;
+    font-size: 10px;
+  }
   .getting-there-list-item {
     display: flex;
     margin-bottom: 15px;
-  justify-content: center;
-  gap: 20px ;
+    justify-content: center;
+    gap: 20px;
   }
-    .getting-there-list-item :last-child{
-      margin-bottom: 0;
-    }
+  .getting-there-list-item :last-child {
+    margin-bottom: 0;
+  }
   .getting-there-list-item-container-for-2 {
     display: flex;
     gap: 10px;
   }
-  .getting-there-list-item-container-for-2-text{
+  .getting-there-list-item-container-for-2-text {
     margin-bottom: 15px;
   }
   .getting-there-list-item-title {
-   
     color: #010a20;
     font-size: 16px;
     margin-bottom: 10px;
   }
-  .getting-there-list-item-text{
+  .getting-there-list-item-text {
     font-size: 10px;
     font-weight: 300;
     color: #151439;
   }
-  .getting-there-list-item-img{
-     width: 150px;
+  .getting-there-list-item-img {
+    width: 150px;
   }
-  .getting-there-list-item-container-for-text-and-title{
+  .getting-there-list-item-container-for-text-and-title {
     width: 380px;
   }
-  .getting-there-btn{
+  .getting-there-btn {
     width: 200px;
-      margin: 0 auto;
+    margin: 0 auto;
   }
 }
 
@@ -205,6 +204,15 @@
 
 /*? ============================1000-1280========================================= */
 @media screen and (min-width: 1000px) {
+    .getting-there-list-item-title{
+    font-size: 20px;
+  }
+  .getting-there-list-item-text{
+    font-size: 16px;
+  }
+  .getting-there-list-item-container-for-text-and-title{
+    width: 800px;
+  }
 }
 /*? ============================1280========================================= */
 @media screen and (min-width: 1280px) {

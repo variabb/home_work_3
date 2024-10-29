@@ -171,9 +171,9 @@
     display: flex;
     justify-content: space-around;
   }
-  /* .explore-container-list-item {
+  .explore-container-list-item {
     width: 150px;
-  } */
+  }
   /* .explore-container-list-item:last-child {
     margin-bottom: 0;
   } */
