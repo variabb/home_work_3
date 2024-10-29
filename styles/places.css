@@ -76,6 +76,7 @@
   }
   .places-list-item{
     display: flex;
+      justify-content: center;
   }
   .places-list-item-container-2{
     order: 1;
@@ -117,7 +118,32 @@
 
 /*? ============================768-1000========================================= */
 @media screen and (min-width: 768px) {
+    .places {
+    background-color: #010a20;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+    .places-list-item-container-2{
+    margin-right: 40px;
+    width: 250px;
+  }
+  .places-list-item-container-1{
+    margin-left: 40px;
+     width: 250px;
+  }
+  .places-list-item{
+    justify-content: center;
+  }
+  .places-wrapper{
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  }
 }
+
 
 /*? ============================1000-1280========================================= */
 @media screen and (min-width: 1000px) {

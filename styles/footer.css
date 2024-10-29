@@ -150,7 +150,7 @@
     display: flex;
     justify-content: space-between;
   }
-  .footer-wrapper{
+  .footer-wrapper, .footer-wrapper-1{
     display: flex;
     justify-content: space-between;
   }
@@ -228,6 +228,9 @@
 
 /*? ============================768-1000========================================= */
 @media screen and (min-width: 768px) {
+  .footer-wrapper-1{
+    width: 180px;
+  }
 }
 
 /*? ============================1000-1280========================================= */

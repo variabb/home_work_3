@@ -188,6 +188,16 @@
 
 /*? ============================768-1000========================================= */
 @media screen and (min-width: 768px) {
+    .explore-list-item-img {
+    width: 200px;
+  }
+  .explore-container-text{
+    width: 250px;
+  }
+  .explore-container-list-item{
+    width: 200px;
+  }
+
 }
 
 /*? ============================1000-1280========================================= */
