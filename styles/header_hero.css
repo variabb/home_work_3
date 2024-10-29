@@ -46,12 +46,12 @@
     padding-bottom: 40px;
   }
   .hero-title {
-    font-size: 58px;
+    font-size: 20px;
     margin-left: 25px;
     margin-bottom: 15px;
     text-transform: capitalize;
   }
-  .btn {
+  .btn-mobile {
     display: block;
     margin: 0 auto; /* Центрує блоковий елемент по горизонталі */
 
@@ -71,6 +71,7 @@
     color: white;
     font-size: 16px;
   }
+  
   .hero-list-container {
     margin-top: 50px;
     margin-right: 20px;
@@ -161,7 +162,7 @@
     padding-right: 40px;
   }
   .hero-title {
-    font-size: 58px;
+    font-size: 48px;
     text-align: center;
     margin-bottom: 15px;
     text-transform: capitalize;
