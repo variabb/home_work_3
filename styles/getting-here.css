@@ -129,6 +129,72 @@
 /*? ============================480-768========================================= */
 
 @media screen and (min-width: 481px) {
+  .getting-there {
+    background-color: #dce8f2;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+  }
+  .getting-there-title {
+    color: #010a20;
+
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .getting-there-list-item-number {
+    font-weight: 500;
+    font-size: 20px;
+  }
+.getting-there-list-item-number-container {
+  background-color: #dd2242;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* Забезпечує круглу форму */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+  color: #fff; /* Білий колір тексту */
+  font-weight: bold;
+  font-size: 10px;
+}
+  .getting-there-list-item {
+    display: flex;
+    margin-bottom: 15px;
+  justify-content: flex-start;
+  gap: 20px ;
+  }
+    .getting-there-list-item :last-child{
+      margin-bottom: 0;
+    }
+  .getting-there-list-item-container-for-2 {
+    display: flex;
+    gap: 10px;
+  }
+  .getting-there-list-item-container-for-2-text{
+    margin-bottom: 15px;
+  }
+  .getting-there-list-item-title {
+   
+    color: #010a20;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .getting-there-list-item-text{
+    font-size: 10px;
+    font-weight: 300;
+    color: #151439;
+  }
+  .getting-there-list-item-img{
+     width: 150px;
+  }
+  .getting-there-list-item-container-for-text-and-title{
+    width: 380px;
+  }
+  .getting-there-btn{
+    width: 200px;
+  }
 }
 
 /*? ============================768-1000========================================= */

@@ -33,12 +33,24 @@
             <div class="logo-text-container">explore indonesia</div></a
           >
         </div>
-        <nav>
-          <ul class="visually-hidden">
-            <li><a href="">destinations</a></li>
-            <li><a href="">experiences</a></li>
-            <li><a href="">about</a></li>
-            <li><a href="">gallery</a></li>
+        <nav class="header-navigation">
+          <ul class="header-navigation-list visually-hidden">
+            <li class="header-navigation-list-item">
+              <a class="header-navigation-list-item-link" href=""
+                >destinations</a
+              >
+            </li>
+            <li class="header-navigation-list-item">
+              <a class="header-navigation-list-item-link" href=""
+                >experiences</a
+              >
+            </li>
+            <li class="header-navigation-list-item">
+              <a class="header-navigation-list-item-link" href="">about</a>
+            </li>
+            <li class="header-navigation-list-item">
+              <a class="header-navigation-list-item-link" href="">gallery</a>
+            </li>
           </ul>
           <!-- TODO svg*2-->
         </nav>
@@ -47,7 +59,7 @@
       <!--================== HERO =======================-->
       <section class="hero">
         <h1 class="hero-title">explore indonesia</h1>
-        <button class="btn">Start travelling</button>
+        <button class="btn hero-btn">Start travelling</button>
         <div class="hero-list-container">
           <ul class="hero-list">
             <li class="hero-list-item">
@@ -72,14 +84,13 @@
               </p>
             </li>
           </ul>
-          <img class="hero-img" src="./images/hero.jpg" alt="">
         </div>
       </section>
     </header>
     <main>
       <!-- ==================== PLACES ====================== -->
       <section class="places">
-        <h1 class="visually-hidden">Interesting Places</h1>
+        <h1 class="visually-hidden visually-hidden-dec">Interesting Places</h1>
         <ul class="places-list">
           <li class="places-list-item">
             <img
@@ -87,29 +98,33 @@
               src="./images/places-1.jpg"
               alt=""
             />
-            <h3 class="places-list-item-title">
-              The walkways of Indonesia spellbind
-            </h3>
-            <p class="places-list-item-text">
-              Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
-              commodo magna et libero mollis rhoncus.
-            </p>
-            <button class="btn">Learn More</button>
+            <div class="places-list-item-container-1">
+              <h3 class="places-list-item-title">
+                The walkways of Indonesia spellbind
+              </h3>
+              <p class="places-list-item-text">
+                Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
+                commodo magna et libero mollis rhoncus.
+              </p>
+              <button class="btn places-btn">Learn More</button>
+            </div>
           </li>
           <li class="places-list-item">
             <img
-              class="places-list-item-img"
+              class="places-list-item-img places-list-item-img-2"
               src="./images/places-2.jpg"
               alt=""
             />
-            <h3 class="places-list-item-title">
-              Perfect beaches exude relaxation and fun
-            </h3>
-            <p class="places-list-item-text">
-              Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
-              commodo magna et libero mollis rhoncus.
-            </p>
-            <button class="btn">Learn More</button>
+            <div class="places-list-item-container-2">
+              <h3 class="places-list-item-title">
+                Perfect beaches exude relaxation and fun
+              </h3>
+              <p class="places-list-item-text">
+                Lorem ipsum dolor sit amet, consectetur adip iscing elit. Fusce
+                commodo magna et libero mollis rhoncus.
+              </p>
+              <button class="btn places-btn">Learn More</button>
+            </div>
           </li>
         </ul>
       </section>
@@ -117,16 +132,35 @@
       <section class="explore">
         <h2 class="explore-title">Explore Our Secrets</h2>
         <!-- TODO svg-->
-        <ul>
+        <ul class="explore-image-list">
           <li>
             <img
-              class="explore-list-item-img"
+              class="explore-list-item-img visually-hidden-dec"
               src="./images/places-2.jpg"
               alt=""
             />
           </li>
-          <!-- <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li> -->
+          <li class="visually-hidden">
+            <img
+              class="explore-list-item-img"
+              src="./images/explore-1.jpg"
+              alt=""
+            />
+          </li>
+          <li class="visually-hidden">
+            <img
+              class="explore-list-item-img"
+              src="./images/explore-2.jpg"
+              alt=""
+            />
+          </li>
+          <li class="visually-hidden">
+            <img
+              class="explore-list-item-img"
+              src="./images/explore-3.jpg"
+              alt=""
+            />
+          </li>
         </ul>
         <!-- TODO svg-->
         <!-- TODO svg (три крапки)-->
@@ -168,17 +202,17 @@
           <h3 class="hills-title">
             Our hills and valleys are like nothing you’ve seen.
           </h3>
-          <p class="hills-text-visually-hidden">
+          <p class="hills-text hills-text-visually-hidden">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
             amet magna commodo, tempus dolor sit amet, laoreet elit. Donec
             mauris tortor.
           </p>
-          <p class="hills-text">
+          <p class="hills-text visually-hidden-dec">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
             amet magna commodo, tempus dolor sit amet, laoreet elit. Donec
             mauris tortor, elementum sed.
           </p>
-          <button class="btn">Learn More</button>
+          <button class="btn hills-btn">Learn More</button>
         </div>
       </section>
       <!-- ========================= Live ======================= -->
@@ -188,27 +222,39 @@
           expect.
         </h3>
 
-         <img  class="live-img" src="./images/live-1.jpg" alt="fhjdfh">
-        <img class="live-img"  src="./images/live-2.jpg" alt="fhjdfh">
+        <img class="live-img" src="./images/live-1.jpg" alt="fhjdfh" />
+        <img
+          class="live-img visually-hidden-dec"
+          src="./images/live-2.jpg"
+          alt="fhjdfh"
+        />
         <ul class="live-list">
           <li class="live-list-item">
-            <div>
+            <div class="live-list-item-container">
               <h5 class="live-list-item-title">In The Country</h5>
               <p class="live-list-item-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus dapibus mauris in lectus tempus.
               </p>
-                <img class="live-img"  src="./images/live-3.jpg" alt="fhjdfh">
             </div>
+            <img
+              class="live-list-item-img"
+              src="./images/live-3.jpg"
+              alt="fhjdfh"
+            />
           </li>
           <li class="live-list-item">
+            <img
+              class="live-list-item-img visually-hidden"
+              src="./images/live-2.jpg"
+              alt="fhjdfh"
+            />
             <div>
               <h5 class="live-list-item-title">In The City</h5>
               <p class="live-list-item-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus dapibus mauris in.
               </p>
-             
             </div>
           </li>
         </ul>
@@ -223,8 +269,14 @@
         <div class="gallery-grid">
           <img class="gallery-grid-img-1" src="./images/gallery-1.jpg" alt="" />
           <img class="gallery-grid-img-2" src="./images/gallery-2.jpg" alt="" />
+          <!-- <img
+            class="gallery-grid-img-2-1 visually-hidden"
+            src="./images/gallery-2.jpg"
+            alt=""
+          /> -->
           <img class="gallery-grid-img-3" src="./images/gallery-3.jpg" alt="" />
           <img class="gallery-grid-img-4" src="./images/gallery-4.jpg" alt="" />
+
           <img class="gallery-grid-img-5" src="./images/gallery-5.jpg" alt="" />
           <img class="gallery-grid-img-6" src="./images/gallery-6.jpg" alt="" />
         </div>
@@ -237,24 +289,28 @@
             <div class="getting-there-list-item-number-container">
               <p class="getting-there-list-item-number">1</p>
             </div>
-
-            <h4 class="getting-there-list-item-title">Bookings your flights</h4>
-            <p class="getting-there-list-item-text visually-hidden">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              dapibus mauris in lectus tempus, eget tincidunt lacus varius. Sed
-              euismod orci dictum faucibus malesuada. Praesent sed eros
-              tincidunt, viverra neque auctor, lobortis enim.
-            </p>
-            <p class="getting-there-list-item-text-mobile">
+            <div class="getting-there-list-item-container-for-text-and-title">
+              <h4 class="getting-there-list-item-title">
+                Bookings your flights
+              </h4>
+              <p class="getting-there-list-item-text visually-hidden">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus
+                varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
+                eros tincidunt, viverra neque auctor, lobortis enim.
+              </p>
+            </div>
+            <p class="getting-there-list-item-text-mobile visually-hidden-dec">
               Lorem ipsum dolor set,,,,
             </p>
-            <a class="btn-mob">Show More</a>
+            <a class="btn-mob visually-hidden-dec">Show More</a>
           </li>
           <li class="getting-there-list-item">
             <div class="getting-there-list-item-number-container">
               <p class="getting-there-list-item-number">2</p>
             </div>
-            <div>
+            <div class="getting-there-list-item-container-for-text-and-title">
+            <div class="getting-there-list-item-container-for-2-text">
               <h4 class="getting-there-list-item-title">Choosing your hotel</h4>
               <p class="getting-there-list-item-text visually-hidden">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -262,32 +318,43 @@
                 varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
                 eros tincidunt, viverra neque auctor, lobortis enim.
               </p>
-              <p class="getting-there-list-item-text-mobile">
+               </div>
+              <p
+                class="getting-there-list-item-text-mobile visually-hidden-dec"
+              >
                 Lorem ipsum dolor set,,,,
               </p>
-              <a class="btn-mob">Show More</a>
-            </div>
-            <div>
+              <a class="btn-mob visually-hidden-dec">Show More</a>
+           
+            <div class="getting-there-list-item-container-for-2">
               <img
                 class="getting-there-list-item-img"
                 src="./images/grtting-img.png"
                 alt=""
               />
-              <h4 class="getting-there-list-item-title visually-hidden">Travelling there</h4>
+              <div>
+              <h4 class="getting-there-list-item-title visually-hidden">
+                Travelling there
+              </h4>
               <p class="getting-there-list-item-text visually-hidden">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Phasellus dapibus mauris in lectus tempus, eget tincidunt.
               </p>
-              <p class="getting-there-list-item-text-mobile">
+              </div>
+              </div>
+              <p
+                class="getting-there-list-item-text-mobile visually-hidden-dec"
+              >
                 Lorem ipsum dolor set,,,,
               </p>
-              <a class="btn-mob">Show More</a>
+              <a class="btn-mob visually-hidden-dec">Show More</a>
             </div>
           </li>
           <li class="getting-there-list-item">
             <div class="getting-there-list-item-number-container">
               <p class="getting-there-list-item-number">3</p>
             </div>
+            <div class="getting-there-list-item-container-for-text-and-title">
             <h4 class="getting-there-list-item-title">
               Planning your experiences
             </h4>
@@ -295,32 +362,46 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
               dapibus mauris in lectus tempus, eget tincidunt lacus varius.
             </p>
-            <p class="getting-there-list-item-text-mobile">
+            </div>
+            <p class="getting-there-list-item-text-mobile visually-hidden-dec">
               Lorem ipsum dolor set,,,,
             </p>
-            <a class="btn-mob">Show More</a>
+            <a class="btn-mob visually-hidden-dec">Show More</a>
           </li>
         </ul>
-        <button class="btn visually-hidden">Learn More</button>
+        <button class="btn visually-hidden getting-there-btn">Learn More</button>
       </section>
     </main>
     <!-- ============================ FOOTER ====================== -->
     <footer class="footer">
+      <div class="footer-wrapper">
       <div class="logo-wrapper">
         <img class="logo-img" src="./images/logo.png" alt="logo" />
-        <a  href=""
-          ><p class="footer-logo"><span class="footer-logo-text-item">explore</span> indonesia</p></a
+        <a href=""
+          ><p class="footer-logo">
+            <span class="footer-logo-text-item">explore</span> indonesia
+          </p></a
         >
       </div>
 
       <nav class="footer-navigation">
         <ul class="footer-list">
-          <li class="footer-list-item"><a class="footer-list-item-link" href="">About</a></li>
-          <li class="footer-list-item"><a class="footer-list-item-link" href="">Pricing</a></li>
-          <li class="footer-list-item"><a class="footer-list-item-link" href="">Company</a></li>
-          <li class="footer-list-item"><a class="footer-list-item-link" href="">Blog</a></li>
+          <li class="footer-list-item">
+            <a class="footer-list-item-link" href="">About</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-list-item-link" href="">Pricing</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-list-item-link" href="">Company</a>
+          </li>
+          <li class="footer-list-item">
+            <a class="footer-list-item-link" href="">Blog</a>
+          </li>
         </ul>
-        <!-- TODO svg*2-->
+      </div>
+
+      <div class="footer-wrapper">
       </nav>
       <ul class="footer-network-list">
         <li class="footer-network-list-item">
@@ -334,6 +415,7 @@
         </li>
       </ul>
       <p class="footer-text">Copyright &copy; 2019</p>
+      </div>
     </footer>
   </body>
 </html>
