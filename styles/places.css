@@ -164,4 +164,23 @@
 }
 /*? ============================1280========================================= */
 @media screen and (min-width: 1280px) {
+  .places-list-item-img{
+    width: 500px;
+    border-radius: 17px;
+  }
+  .places-list-item-title{
+    font-size: 30px;
+  }
+   .places-list-item {
+    margin-bottom: 150px;
+  }
+  .places-list-item:last-child {
+    margin-bottom: 0;
+  }
+  .places-list-item-container-1{
+    margin-left: 100px;
+  }
+  .places-list-item-container-2{
+ margin-right: 100px;
+  }
 }

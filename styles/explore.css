@@ -205,4 +205,36 @@
 }
 /*? ============================1280========================================= */
 @media screen and (min-width: 1280px) {
+  .explore-image-list{
+  margin-bottom: 900px;
+}
+.explore-list-item-img{
+  width: 300px;
+}
+.explore-container{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.explore-container-title{
+  font-size: 40px;
+}
+.explore-container-text{
+  font-size: 18px;
+  width: 400px;
+  margin-bottom: 50px;
+}
+.explore-container-list-item-number{
+font-size: 40px;
+}
+.explore-container-list-item-text{
+  font-size: 18px;
+   width: 340px;
+
+}
+.explore-container-list-item{
+  width: 340px;
+}
+.explore-container-list{
+ justify-content: space-between;
+}
 }

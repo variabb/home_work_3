@@ -433,4 +433,33 @@
 
 /*? ============================1280========================================= */
 @media screen and (min-width: 1280px) {
+    .hero {
+    padding-top: 160px;
+    /* padding-bottom: 40px; */
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+  .hero-title{
+    font-size: 100px;
+  }
+  .hero-btn{
+    width: 280px;
+    height: 80px;
+    font-size: 20px;
+    margin-bottom: 200px;
+  }
+  .hero-list-item-number{
+    font-size: 16px;
+  }
+  .hero-list-item-title{
+    font-size: 26px;
+  }
+  .hero-list-item-text{
+    font-size: 18px;
+  }
+  .hero-list-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
+
