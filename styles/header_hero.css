@@ -3,6 +3,12 @@
   .header {
     padding-top: 15px;
     margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-icon {
+    display: flex;
+    gap: 5px;
   }
   .visually-hidden {
     position: absolute;
@@ -39,7 +45,14 @@
     display: flex;
     gap: 6px;
   }
-
+  .burger,
+  .search {
+    width: 24px;
+    height: 24px;
+  }
+  .burger {
+    padding-right: 20px;
+  }
   /* =================== HERO ===================== */
   .hero {
     padding-top: 50px;
@@ -71,7 +84,7 @@
     color: white;
     font-size: 16px;
   }
-  
+
   .hero-list-container {
     margin-top: 50px;
     margin-right: 20px;
@@ -85,7 +98,6 @@
   }
   .hero-list-item {
     margin-bottom: 35px;
-  
   }
   .hero-list-item:last-child {
     margin-bottom: 0px;
@@ -107,7 +119,7 @@
   }
   .hero-list-item-text {
     color: #939393;
-   /* font-size: 10px; */
+    /* font-size: 10px; */
   }
 }
 
@@ -117,6 +129,20 @@
   .header {
     padding-top: 15px;
     margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-icon {
+    display: flex;
+    gap: 5px;
+  }
+  .burger,
+  .search {
+    width: 24px;
+    height: 24px;
+  }
+  .burger {
+    padding-right: 20px;
   }
   .visually-hidden {
     position: absolute;
@@ -250,11 +276,21 @@
     padding-top: 15px;
     padding-bottom: 15px;
     display: flex;
-    /* justify-content: flex-start; */
+    /* justify-content: space-around; */
     gap: 20px;
 
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .hero-icon {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  .burger,
+  .search {
+    width: 24px;
+    height: 24px;
   }
   .logo-container {
     width: 30%;
@@ -346,9 +382,9 @@
     display: flex;
     justify-content: space-around;
   }
-.hero-list-item{
-  width: 130px;
-}
+  .hero-list-item {
+    width: 130px;
+  }
   .hero-list-item-number {
     color: #dd2242;
     font-size: 14px;
@@ -379,6 +415,12 @@
   /* =================== HEADER ===================== */
   .header {
     justify-content: flex-start;
+  }
+  .hero-icon {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: 200px;
   }
   .logo-container {
     width: 120px;
@@ -417,13 +459,17 @@
 
 /*? ============================1000-1280========================================= */
 @media screen and (min-width: 1000px) {
+   .hero-icon {
+    margin-left: 300px;
+  }
   .header-navigation-list-item-link {
     font-size: 16px;
+    font-weight: 700;
   }
   .header-navigation {
     width: 400px;
   }
-  .hero-list-item-text{
+  .hero-list-item-text {
     font-size: 16px;
   }
   .hero-list-item {
@@ -434,33 +480,38 @@
 
 /*? ============================1280========================================= */
 @media screen and (min-width: 1280px) {
-    .hero {
+   .header {
+    justify-content: flex-start;
+  }
+     .hero-icon {
+    margin-left: 600px;
+  }
+  .hero {
     padding-top: 160px;
-    /* padding-bottom: 40px; */
+  
     padding-left: 180px;
     padding-right: 180px;
   }
-  .hero-title{
+  .hero-title {
     font-size: 100px;
   }
-  .hero-btn{
+  .hero-btn {
     width: 280px;
     height: 80px;
     font-size: 20px;
     margin-bottom: 200px;
   }
-  .hero-list-item-number{
+  .hero-list-item-number {
     font-size: 16px;
   }
-  .hero-list-item-title{
+  .hero-list-item-title {
     font-size: 26px;
   }
-  .hero-list-item-text{
+  .hero-list-item-text {
     font-size: 18px;
   }
-  .hero-list-container{
+  .hero-list-container {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 }
-
